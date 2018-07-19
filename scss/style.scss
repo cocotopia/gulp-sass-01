@@ -1,0 +1,45 @@
+$fondo-rojo:red;
+$color-blanco:white;
+$color-azul:blue;
+$color-amarillo:yellow;
+$color-negro:black;
+body {
+    background: $fondo-rojo;
+    h1 {
+        color: $color-amarillo;
+        text-shadow: 3px 3px 5px $color-negro;
+        text-align: center;
+    }
+    p {
+        color: $color-blanco;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        min-height: 300px;
+    }
+    div {
+        color: $color-azul;
+    }
+    section {
+        text-decoration: underline;
+    }
+    nav {
+        background: yellow;
+        ul {
+            width: 80%;
+            margin: 0px auto;
+            li {
+                color: $color-negro;
+                a {
+                    text-decoration: none;
+                    color: $color-negro;
+                }
+            }
+        }
+    }
+    pre {
+        color: $color-blanco;
+        text-align: center;
+    }
+}
